@@ -1,0 +1,68 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Xcode ===
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xcworkspace/xcshareddata/
+
+# === SwiftPM ===
+.build/
+Packages/
+.swiftpm/
+.idea/
+
+# === Cocoapods ===
+Pods/
+Podfile.lock
+
+# === Carthage ===
+Carthage/Build/
+
+# === Firebase Crashlytics ===
+*.dSYM.zip
+*.dSYM
+
+# === Logs and temp ===
+*.log
+*.xcuserstate
+*.moved-aside
+*.swp
+*.lock
+
+# === Playgrounds ===
+timeline.xctimeline
+playground.xcworkspace
+
+# === Previews ===
+PreviewContent/
+
+# === User settings ===
+*.xcuserdatad*
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# === Personal schemes ===
+*.xcscheme
+
+# === Fastlane (if used) ===
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# === Bundle artifacts ===
+*.ipa
+*.app
+*.xcarchive
