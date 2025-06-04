@@ -7,40 +7,53 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		5E5EC1F92DE5313B00421DEB /* PBXContainerItemProxy */ = {
+		5EABE8E32DF102B100B04871 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5E5EC1E32DE5313A00421DEB /* Project object */;
+			containerPortal = 5EABE8CD2DF102B000B04871 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E5EC1EA2DE5313A00421DEB;
+			remoteGlobalIDString = 5EABE8D42DF102B000B04871;
 			remoteInfo = DropDetection;
 		};
-		5E5EC2032DE5313B00421DEB /* PBXContainerItemProxy */ = {
+		5EABE8ED2DF102B100B04871 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5E5EC1E32DE5313A00421DEB /* Project object */;
+			containerPortal = 5EABE8CD2DF102B000B04871 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E5EC1EA2DE5313A00421DEB;
+			remoteGlobalIDString = 5EABE8D42DF102B000B04871;
 			remoteInfo = DropDetection;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E5EC1EB2DE5313A00421DEB /* DropDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E5EC1F82DE5313B00421DEB /* DropDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E5EC2022DE5313B00421DEB /* DropDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EABE8D52DF102B000B04871 /* DropDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EABE8E22DF102B100B04871 /* DropDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EABE8EC2DF102B100B04871 /* DropDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5EABE9002DF1038E00B04871 /* Exceptions for "DropDetection" folder in "DropDetection" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5EABE8D42DF102B000B04871 /* DropDetection */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5E5EC1ED2DE5313A00421DEB /* DropDetection */ = {
+		5EABE8D72DF102B000B04871 /* DropDetection */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5EABE9002DF1038E00B04871 /* Exceptions for "DropDetection" folder in "DropDetection" target */,
+			);
 			path = DropDetection;
 			sourceTree = "<group>";
 		};
-		5E5EC1FB2DE5313B00421DEB /* DropDetectionTests */ = {
+		5EABE8E52DF102B100B04871 /* DropDetectionTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DropDetectionTests;
 			sourceTree = "<group>";
 		};
-		5E5EC2052DE5313B00421DEB /* DropDetectionUITests */ = {
+		5EABE8EF2DF102B100B04871 /* DropDetectionUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DropDetectionUITests;
 			sourceTree = "<group>";
@@ -48,21 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E5EC1E82DE5313A00421DEB /* Frameworks */ = {
+		5EABE8D22DF102B000B04871 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5EC1F52DE5313B00421DEB /* Frameworks */ = {
+		5EABE8DF2DF102B100B04871 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5EC1FF2DE5313B00421DEB /* Frameworks */ = {
+		5EABE8E92DF102B100B04871 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E5EC1E22DE5313A00421DEB = {
+		5EABE8CC2DF102B000B04871 = {
 			isa = PBXGroup;
 			children = (
-				5E5EC1ED2DE5313A00421DEB /* DropDetection */,
-				5E5EC1FB2DE5313B00421DEB /* DropDetectionTests */,
-				5E5EC2052DE5313B00421DEB /* DropDetectionUITests */,
-				5E5EC1EC2DE5313A00421DEB /* Products */,
+				5EABE8D72DF102B000B04871 /* DropDetection */,
+				5EABE8E52DF102B100B04871 /* DropDetectionTests */,
+				5EABE8EF2DF102B100B04871 /* DropDetectionUITests */,
+				5EABE8D62DF102B000B04871 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5E5EC1EC2DE5313A00421DEB /* Products */ = {
+		5EABE8D62DF102B000B04871 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E5EC1EB2DE5313A00421DEB /* DropDetection.app */,
-				5E5EC1F82DE5313B00421DEB /* DropDetectionTests.xctest */,
-				5E5EC2022DE5313B00421DEB /* DropDetectionUITests.xctest */,
+				5EABE8D52DF102B000B04871 /* DropDetection.app */,
+				5EABE8E22DF102B100B04871 /* DropDetectionTests.xctest */,
+				5EABE8EC2DF102B100B04871 /* DropDetectionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E5EC1EA2DE5313A00421DEB /* DropDetection */ = {
+		5EABE8D42DF102B000B04871 /* DropDetection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E5EC20C2DE5313B00421DEB /* Build configuration list for PBXNativeTarget "DropDetection" */;
+			buildConfigurationList = 5EABE8F62DF102B100B04871 /* Build configuration list for PBXNativeTarget "DropDetection" */;
 			buildPhases = (
-				5E5EC1E72DE5313A00421DEB /* Sources */,
-				5E5EC1E82DE5313A00421DEB /* Frameworks */,
-				5E5EC1E92DE5313A00421DEB /* Resources */,
+				5EABE8D12DF102B000B04871 /* Sources */,
+				5EABE8D22DF102B000B04871 /* Frameworks */,
+				5EABE8D32DF102B000B04871 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5E5EC1ED2DE5313A00421DEB /* DropDetection */,
+				5EABE8D72DF102B000B04871 /* DropDetection */,
 			);
 			name = DropDetection;
 			packageProductDependencies = (
 			);
 			productName = DropDetection;
-			productReference = 5E5EC1EB2DE5313A00421DEB /* DropDetection.app */;
+			productReference = 5EABE8D52DF102B000B04871 /* DropDetection.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E5EC1F72DE5313B00421DEB /* DropDetectionTests */ = {
+		5EABE8E12DF102B100B04871 /* DropDetectionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E5EC20F2DE5313B00421DEB /* Build configuration list for PBXNativeTarget "DropDetectionTests" */;
+			buildConfigurationList = 5EABE8F92DF102B100B04871 /* Build configuration list for PBXNativeTarget "DropDetectionTests" */;
 			buildPhases = (
-				5E5EC1F42DE5313B00421DEB /* Sources */,
-				5E5EC1F52DE5313B00421DEB /* Frameworks */,
-				5E5EC1F62DE5313B00421DEB /* Resources */,
+				5EABE8DE2DF102B100B04871 /* Sources */,
+				5EABE8DF2DF102B100B04871 /* Frameworks */,
+				5EABE8E02DF102B100B04871 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E5EC1FA2DE5313B00421DEB /* PBXTargetDependency */,
+				5EABE8E42DF102B100B04871 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5E5EC1FB2DE5313B00421DEB /* DropDetectionTests */,
+				5EABE8E52DF102B100B04871 /* DropDetectionTests */,
 			);
 			name = DropDetectionTests;
 			packageProductDependencies = (
 			);
 			productName = DropDetectionTests;
-			productReference = 5E5EC1F82DE5313B00421DEB /* DropDetectionTests.xctest */;
+			productReference = 5EABE8E22DF102B100B04871 /* DropDetectionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E5EC2012DE5313B00421DEB /* DropDetectionUITests */ = {
+		5EABE8EB2DF102B100B04871 /* DropDetectionUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E5EC2122DE5313B00421DEB /* Build configuration list for PBXNativeTarget "DropDetectionUITests" */;
+			buildConfigurationList = 5EABE8FC2DF102B100B04871 /* Build configuration list for PBXNativeTarget "DropDetectionUITests" */;
 			buildPhases = (
-				5E5EC1FE2DE5313B00421DEB /* Sources */,
-				5E5EC1FF2DE5313B00421DEB /* Frameworks */,
-				5E5EC2002DE5313B00421DEB /* Resources */,
+				5EABE8E82DF102B100B04871 /* Sources */,
+				5EABE8E92DF102B100B04871 /* Frameworks */,
+				5EABE8EA2DF102B100B04871 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E5EC2042DE5313B00421DEB /* PBXTargetDependency */,
+				5EABE8EE2DF102B100B04871 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5E5EC2052DE5313B00421DEB /* DropDetectionUITests */,
+				5EABE8EF2DF102B100B04871 /* DropDetectionUITests */,
 			);
 			name = DropDetectionUITests;
 			packageProductDependencies = (
 			);
 			productName = DropDetectionUITests;
-			productReference = 5E5EC2022DE5313B00421DEB /* DropDetectionUITests.xctest */;
+			productReference = 5EABE8EC2DF102B100B04871 /* DropDetectionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5E5EC1E32DE5313A00421DEB /* Project object */ = {
+		5EABE8CD2DF102B000B04871 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					5E5EC1EA2DE5313A00421DEB = {
-						CreatedOnToolsVersion = 16.3;
+					5EABE8D42DF102B000B04871 = {
+						CreatedOnToolsVersion = 16.4;
 					};
-					5E5EC1F72DE5313B00421DEB = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 5E5EC1EA2DE5313A00421DEB;
+					5EABE8E12DF102B100B04871 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5EABE8D42DF102B000B04871;
 					};
-					5E5EC2012DE5313B00421DEB = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 5E5EC1EA2DE5313A00421DEB;
+					5EABE8EB2DF102B100B04871 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5EABE8D42DF102B000B04871;
 					};
 				};
 			};
-			buildConfigurationList = 5E5EC1E62DE5313A00421DEB /* Build configuration list for PBXProject "DropDetection" */;
+			buildConfigurationList = 5EABE8D02DF102B000B04871 /* Build configuration list for PBXProject "DropDetection" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5E5EC1E22DE5313A00421DEB;
+			mainGroup = 5EABE8CC2DF102B000B04871;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5E5EC1EC2DE5313A00421DEB /* Products */;
+			productRefGroup = 5EABE8D62DF102B000B04871 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E5EC1EA2DE5313A00421DEB /* DropDetection */,
-				5E5EC1F72DE5313B00421DEB /* DropDetectionTests */,
-				5E5EC2012DE5313B00421DEB /* DropDetectionUITests */,
+				5EABE8D42DF102B000B04871 /* DropDetection */,
+				5EABE8E12DF102B100B04871 /* DropDetectionTests */,
+				5EABE8EB2DF102B100B04871 /* DropDetectionUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5E5EC1E92DE5313A00421DEB /* Resources */ = {
+		5EABE8D32DF102B000B04871 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5EC1F62DE5313B00421DEB /* Resources */ = {
+		5EABE8E02DF102B100B04871 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5EC2002DE5313B00421DEB /* Resources */ = {
+		5EABE8EA2DF102B100B04871 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E5EC1E72DE5313A00421DEB /* Sources */ = {
+		5EABE8D12DF102B000B04871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5EC1F42DE5313B00421DEB /* Sources */ = {
+		5EABE8DE2DF102B100B04871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5EC1FE2DE5313B00421DEB /* Sources */ = {
+		5EABE8E82DF102B100B04871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E5EC1FA2DE5313B00421DEB /* PBXTargetDependency */ = {
+		5EABE8E42DF102B100B04871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E5EC1EA2DE5313A00421DEB /* DropDetection */;
-			targetProxy = 5E5EC1F92DE5313B00421DEB /* PBXContainerItemProxy */;
+			target = 5EABE8D42DF102B000B04871 /* DropDetection */;
+			targetProxy = 5EABE8E32DF102B100B04871 /* PBXContainerItemProxy */;
 		};
-		5E5EC2042DE5313B00421DEB /* PBXTargetDependency */ = {
+		5EABE8EE2DF102B100B04871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E5EC1EA2DE5313A00421DEB /* DropDetection */;
-			targetProxy = 5E5EC2032DE5313B00421DEB /* PBXContainerItemProxy */;
+			target = 5EABE8D42DF102B000B04871 /* DropDetection */;
+			targetProxy = 5EABE8ED2DF102B100B04871 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5E5EC20A2DE5313B00421DEB /* Debug */ = {
+		5EABE8F42DF102B100B04871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -332,7 +345,7 @@
 			};
 			name = Debug;
 		};
-		5E5EC20B2DE5313B00421DEB /* Release */ = {
+		5EABE8F52DF102B100B04871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -388,7 +401,7 @@
 			};
 			name = Release;
 		};
-		5E5EC20D2DE5313B00421DEB /* Debug */ = {
+		5EABE8F72DF102B100B04871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -398,7 +411,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DropDetection/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -417,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		5E5EC20E2DE5313B00421DEB /* Release */ = {
+		5EABE8F82DF102B100B04871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -427,7 +439,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DropDetection/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,14 +457,14 @@
 			};
 			name = Release;
 		};
-		5E5EC2102DE5313B00421DEB /* Debug */ = {
+		5EABE8FA2DF102B100B04871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DropDetectionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,14 +475,14 @@
 			};
 			name = Debug;
 		};
-		5E5EC2112DE5313B00421DEB /* Release */ = {
+		5EABE8FB2DF102B100B04871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DropDetectionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,7 +493,7 @@
 			};
 			name = Release;
 		};
-		5E5EC2132DE5313B00421DEB /* Debug */ = {
+		5EABE8FD2DF102B100B04871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -498,7 +509,7 @@
 			};
 			name = Debug;
 		};
-		5E5EC2142DE5313B00421DEB /* Release */ = {
+		5EABE8FE2DF102B100B04871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -517,43 +528,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E5EC1E62DE5313A00421DEB /* Build configuration list for PBXProject "DropDetection" */ = {
+		5EABE8D02DF102B000B04871 /* Build configuration list for PBXProject "DropDetection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E5EC20A2DE5313B00421DEB /* Debug */,
-				5E5EC20B2DE5313B00421DEB /* Release */,
+				5EABE8F42DF102B100B04871 /* Debug */,
+				5EABE8F52DF102B100B04871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E5EC20C2DE5313B00421DEB /* Build configuration list for PBXNativeTarget "DropDetection" */ = {
+		5EABE8F62DF102B100B04871 /* Build configuration list for PBXNativeTarget "DropDetection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E5EC20D2DE5313B00421DEB /* Debug */,
-				5E5EC20E2DE5313B00421DEB /* Release */,
+				5EABE8F72DF102B100B04871 /* Debug */,
+				5EABE8F82DF102B100B04871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E5EC20F2DE5313B00421DEB /* Build configuration list for PBXNativeTarget "DropDetectionTests" */ = {
+		5EABE8F92DF102B100B04871 /* Build configuration list for PBXNativeTarget "DropDetectionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E5EC2102DE5313B00421DEB /* Debug */,
-				5E5EC2112DE5313B00421DEB /* Release */,
+				5EABE8FA2DF102B100B04871 /* Debug */,
+				5EABE8FB2DF102B100B04871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E5EC2122DE5313B00421DEB /* Build configuration list for PBXNativeTarget "DropDetectionUITests" */ = {
+		5EABE8FC2DF102B100B04871 /* Build configuration list for PBXNativeTarget "DropDetectionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E5EC2132DE5313B00421DEB /* Debug */,
-				5E5EC2142DE5313B00421DEB /* Release */,
+				5EABE8FD2DF102B100B04871 /* Debug */,
+				5EABE8FE2DF102B100B04871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5E5EC1E32DE5313A00421DEB /* Project object */;
+	rootObject = 5EABE8CD2DF102B000B04871 /* Project object */;
 }
