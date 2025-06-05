@@ -1,24 +1,24 @@
-# 📱 DropDetection – Real-Time Motion & Drop Detection App
+# DropDetection – Real-Time Motion & Drop Detection App
 
 DropDetection is a SwiftUI-based iOS app that monitors phone movement, detects sudden drops or jolts, and logs real-time accelerometer and GPS data. This app was developed by **Razib Hasan** as part of an internship project at **Solit**, focused on mobile sensing and infrastructure awareness.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Real-time motion detection using CoreMotion  
-- ✅ Shows whether the phone is in motion or stationary  
-- ✅ Detects sudden drops/jolts using magnitude thresholds  
-- ✅ Logs the latest 20 accelerometer readings with:
+- Real-time motion detection using CoreMotion  
+- Shows whether the phone is in motion or stationary  
+- Detects sudden drops/jolts using magnitude thresholds  
+- Logs the latest 20 accelerometer readings with:
   - Timestamp (date & time)
   - Motion magnitude
   - GPS latitude & longitude  
-- ✅ Clean SwiftUI-based UI with large animated Start/Stop button  
-- ✅ Runs on real devices with Apple Developer ID setup  
+- Clean SwiftUI-based UI with large animated Start/Stop button  
+- Runs on real devices with Apple Developer ID setup  
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Component        | Framework        |
 |------------------|------------------|
@@ -29,7 +29,7 @@ DropDetection is a SwiftUI-based iOS app that monitors phone movement, detects s
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```plaintext
 DropDetection/
@@ -43,7 +43,7 @@ DropDetection/
 
 ---
 
-## 🛠 Installation
+## Installation
 
 1. Clone the repo:
    ```bash
@@ -91,7 +91,7 @@ Make sure you’ve added:
 
 ---
 
-## 📌 TODO
+## TODO
 
 - [ ] CSV export button  
 - [ ] Drop severity scoring  
@@ -101,12 +101,10 @@ Make sure you’ve added:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Razib Hasan**  
 Intern at **Solit**  
-Founder of [Nordic Radius](https://nordicradius.com)  
-Working on engineering the future of smart sensing and health tech.  
 
 ---
 
