@@ -64,7 +64,7 @@ DropDetection/
 4. Build to device:
    - Connect your iPhone via USB
    - Select your device from the top device list
-   - Press ▶️ *Run*
+   - Press *Run*
 
 5. On your iPhone:
    - Go to **Settings > General > VPN & Device Management**
@@ -72,7 +72,7 @@ DropDetection/
 
 ---
 
-## 🔐 Permissions (Info.plist)
+## Permissions (Info.plist)
 
 Make sure you’ve added:
 
