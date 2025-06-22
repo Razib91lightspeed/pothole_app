@@ -9,6 +9,10 @@
 </key>
 	<string>This app needs your location to detect sudden drops.
 </string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UIBackgroundModes
 </key>
 	<array>

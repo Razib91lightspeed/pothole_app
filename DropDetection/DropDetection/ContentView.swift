@@ -5,69 +5,109 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            Color(.systemGray6).edgesIgnoringSafeArea(.all)
-
+            Color.black.ignoresSafeArea()
             ScrollView {
-                VStack(spacing: 25) {
-                    Text(viewModel.isMonitoring ? "🟢 Monitoring Drops" : "🔴 Not Monitoring")
+                VStack(spacing: 20) {
+                    Text(viewModel.isMonitoring ? "🟢 Monitoring" : "🔴 Not Monitoring")
+                        .foregroundColor(.white)
                         .font(.title2)
-                        .fontWeight(.semibold)
 
                     Text(viewModel.isMoving ? "📱 Phone is in motion" : "📴 Stationary")
                         .foregroundColor(viewModel.isMoving ? .green : .gray)
-                        .font(.callout)
 
                     Button(action: {
                         viewModel.isMonitoring ? viewModel.stopMonitoring() : viewModel.startMonitoring()
                     }) {
                         Text(viewModel.isMonitoring ? "Stop" : "Start")
                             .font(.title)
-                            .fontWeight(.bold)
-                            .frame(width: 160, height: 160)
-                            .background(
-                                RadialGradient(
-                                    gradient: Gradient(colors: viewModel.isMonitoring
-                                                       ? [Color.red.opacity(0.8), Color.red]
-                                                       : [Color.green.opacity(0.8), Color.green]),
-                                    center: .center,
-                                    startRadius: 10,
-                                    endRadius: 100
-                                )
-                            )
                             .foregroundColor(.white)
+                            .frame(width: 160, height: 160)
+                            .background(viewModel.isMonitoring ? Color.red : Color.green)
                             .clipShape(Circle())
-                            .shadow(color: .gray.opacity(0.6), radius: 10, x: 0, y: 10)
-                            .overlay(
-                                Circle().stroke(Color.white.opacity(0.2), lineWidth: 4)
-                            )
                     }
 
-                    if !viewModel.motionLog.isEmpty {
-                        VStack(alignment: .leading, spacing: 10) {
-                            Text("📈 Last 20 Motion Readings")
-                                .font(.headline)
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("MOTION DATA")
+                            .foregroundColor(.gray)
+                        HStack {
+                            Text("Timestamp")
+                            Spacer()
+                            Text(viewModel.motionLog.first?.timestamp.ISO8601Format() ?? "N/A")
+                        }
+                        HStack {
+                            Text("Acceleration (m/s²)")
+                            Spacer()
+                            Text(String(format: "%.2f", viewModel.motionLog.first?.magnitude ?? 0))
+                        }
+                        HStack {
+                            Text("Moving?")
+                            Spacer()
+                            Text(viewModel.isMoving ? "Yes" : "No")
+                        }
+                    }
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(10)
 
-                            ForEach(viewModel.motionLog) { entry in
-                                VStack(alignment: .leading, spacing: 2) {
-                                       Text("🕒 \(viewModel.format(date: entry.timestamp))")
-                                       Text("📍 Lat: \(String(format: "%.5f", entry.latitude)), Lon: \(String(format: "%.5f", entry.longitude))")
-                                       Text("📈 Magnitude: \(String(format: "%.3f", entry.magnitude))")
-                                   }
-                                .padding(.horizontal, 4)
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("LOCATION DATA")
+                            .foregroundColor(.gray)
+                        HStack {
+                            Text("Lat")
+                            Spacer()
+                            Text(String(format: "%.5f", viewModel.lastLat))
+                        }
+                        HStack {
+                            Text("Lon")
+                            Spacer()
+                            Text(String(format: "%.5f", viewModel.lastLon))
+                        }
+                        HStack {
+                            Text("Accuracy (m)")
+                            Spacer()
+                            Text(String(format: "%.2f", viewModel.lastAccuracy))
+                        }
+                        HStack {
+                            Text("Speed (m/s)")
+                            Spacer()
+                            Text(String(format: "%.2f", viewModel.lastSpeed))
+                        }
+                        HStack {
+                            Text("Heading (° to North)")
+                            Spacer()
+                            Text(String(format: "%.2f", viewModel.lastHeading))
+                        }
+                        HStack {
+                            Text("Location Time")
+                            Spacer()
+                            Text(viewModel.locationTimestamp)
+                        }
+                    }
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(10)
+
+                    if !viewModel.recentDrops.isEmpty {
+                        VStack(alignment: .leading) {
+                            Text("RECENT DROPS")
+                                .foregroundColor(.gray)
+                            ForEach(viewModel.recentDrops) { drop in
+                                VStack(alignment: .leading) {
+                                    Text("🕒 \(drop.timestamp.ISO8601Format())")
+                                    Text("Lat: \(drop.latitude), Lon: \(drop.longitude), Mag: \(String(format: "%.2f", drop.magnitude))")
+                                }
+                                .padding(.vertical, 2)
                             }
                         }
-                        .padding(.horizontal)
+                        .foregroundColor(.white)
                     }
 
-                    Spacer(minLength: 30)
+                    Spacer()
                 }
-                .padding(.top, 20)
-                .padding(.bottom)
+                .padding()
             }
         }
     }
-}
-
-#Preview {
-    ContentView()
 }
